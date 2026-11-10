@@ -49,7 +49,7 @@ export default function Navbar() {
       >
         <ShoppingCart aria-hidden="true" className="size-5" />
         <span aria-label="Cart item count" className="absolute -right-1 -top-1 grid size-5 place-items-center rounded-full bg-primary text-[10px] font-bold leading-none text-primary-foreground">
-          {cartData?.payload.numOfCartItems ?? 0}
+          {cartData?.payload?.numOfCartItems ?? 0}
         </span>
       </Link>
 
